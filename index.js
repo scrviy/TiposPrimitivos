@@ -13,3 +13,10 @@ let sobrenomeAluno = null;
 
 // boolean => false || true
 const aprovado = false;
+
+const a = 2;
+const b = a;
+console.log(a, b);
+
+a = 3;
+console.log(a, b);
